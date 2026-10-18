@@ -1,0 +1,11 @@
+@"
+.venv/
+browser_profile/
+chrome-profile/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.vscode/
+"@ | Set-Content -Encoding utf8 .gitignore
